@@ -12,7 +12,7 @@ namespace ScriptableObjects
         
         [HorizontalLine]
         
-        [HideInInspector] public GameObject shaderObject;
+        public GameObject shaderObject;
         
         public void SetReference(GameObject obj)
         {

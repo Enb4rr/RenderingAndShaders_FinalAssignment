@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: 4_ItemShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
   shaderName: 04
+  shaderId: 3
   shaderDescription: 
-  shaderObject: {fileID: 2397850721327928656, guid: c2ecba0d21059e946a1430c07cf263dd, type: 3}
+  shaderObject: {fileID: 0}

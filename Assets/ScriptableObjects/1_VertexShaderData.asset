@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: 1_VertexShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
   shaderName: 01
+  shaderId: 0
   shaderDescription: 
-  shaderObject: {fileID: 2397850721327928656, guid: f07c075094f0d674db6c2295a4f8a367, type: 3}
+  shaderObject: {fileID: 0}
