@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <- Previous
+  m_text: < Previous
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9609d05e21daff648bdf3322d99e686a, type: 2}
   m_sharedMaterial: {fileID: -2495967133663470312, guid: 9609d05e21daff648bdf3322d99e686a, type: 2}
@@ -1344,6 +1344,9 @@ GameObject:
   - component: {fileID: 664345001}
   - component: {fileID: 664345000}
   - component: {fileID: 664344999}
+  - component: {fileID: 664345004}
+  - component: {fileID: 664345003}
+  - component: {fileID: 664345002}
   m_Layer: 5
   m_Name: Previous_Button
   m_TagString: Untagged
@@ -1453,6 +1456,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664344997}
   m_CullTransparentMesh: 1
+--- !u!114 &664345002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664344997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627ea950323016340ba1e0796a60b0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.AutoSelect
+--- !u!114 &664345003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664344997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498cb74e017c51a408caae0e618ae207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.TextMeshProSelectOptions
+  text: {fileID: 88910766}
+  normalOptions:
+    Color: {r: 0.57232696, g: 0.57232696, b: 0.57232696, a: 1}
+    Style: 0
+  selectedOptions:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Style: 0
+--- !u!114 &664345004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664344997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f26aff79c0ef1d4ca018c158fc39be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.MouseoverSelect
 --- !u!1 &929421611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,6 +1822,8 @@ GameObject:
   - component: {fileID: 995884037}
   - component: {fileID: 995884036}
   - component: {fileID: 995884035}
+  - component: {fileID: 995884039}
+  - component: {fileID: 995884038}
   m_Layer: 5
   m_Name: Next_Button
   m_TagString: Untagged
@@ -1885,6 +1933,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995884033}
   m_CullTransparentMesh: 1
+--- !u!114 &995884038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995884033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498cb74e017c51a408caae0e618ae207, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.TextMeshProSelectOptions
+  text: {fileID: 1397230274}
+  normalOptions:
+    Color: {r: 0.57232696, g: 0.57232696, b: 0.57232696, a: 1}
+    Style: 0
+  selectedOptions:
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    Style: 0
+--- !u!114 &995884039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995884033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f26aff79c0ef1d4ca018c158fc39be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI.MouseoverSelect
 --- !u!1 &1397230272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,7 +2021,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: -> Next
+  m_text: '> Next'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9609d05e21daff648bdf3322d99e686a, type: 2}
   m_sharedMaterial: {fileID: -2495967133663470312, guid: 9609d05e21daff648bdf3322d99e686a, type: 2}
