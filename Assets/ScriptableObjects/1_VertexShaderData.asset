@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 647c2e5fc4f87234799a0bf20de75295, type: 3}
   m_Name: 1_VertexShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
-  shaderName: 01
+  shaderName: 01 - Organic noise blob
   shaderId: 0
-  shaderDescription: 
+  shaderDescription: The sphere's vertices get pushed in and out along their normals
+    using a math noise function + time
   shaderObject: {fileID: 0}

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 647c2e5fc4f87234799a0bf20de75295, type: 3}
   m_Name: 3_PostProcessingShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
-  shaderName: 03
+  shaderName: 03 - Post Process
   shaderId: 2
-  shaderDescription: 
+  shaderDescription: Overrides the post process Volume in a range, then applies post
+    process adjustments with components like bloom, vignette, lens flare and more
+    to enhance the visuals of a simple scene.
   shaderObject: {fileID: 0}
