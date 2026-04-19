@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 647c2e5fc4f87234799a0bf20de75295, type: 3}
   m_Name: 5_EnvironmentShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
-  shaderName: 05
+  shaderName: 05 - Ash Rain
   shaderId: 4
-  shaderDescription: 
+  shaderDescription: 'Environment
+
+    Simple Flake Mask + Emission and Base Color
+    combined with a VFX graph to create an Ash/Ember rain
+
+'
   shaderObject: {fileID: 0}
