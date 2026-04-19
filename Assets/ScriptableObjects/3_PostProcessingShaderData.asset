@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
   shaderName: 03 - Post Process
   shaderId: 2
-  shaderDescription: Overrides the post process Volume in a range, then applies post
-    process adjustments with components like bloom, vignette, lens flare and more
-    to enhance the visuals of a simple scene.
+  shaderDescription: 'Post Process
+
+    Overrides the post process Volume in a range,
+    then applies post process adjustments with components like bloom, vignette, lens
+    flare and more to enhance the visuals of a simple scene.'
   shaderObject: {fileID: 0}

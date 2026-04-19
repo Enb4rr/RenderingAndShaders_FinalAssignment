@@ -14,10 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
   shaderName: 02 - Plasma Ball
   shaderId: 1
-  shaderDescription: 'Simulates a plasma globe effect. Each pixel computes its position
-    in polar coordinates (radius and angle from the sphere''s center), which naturally
-    orients the effect radially outward. A domain warping technique is then applied:
-    the angular coordinate is offset by layered noise before a final noise sample
-    is taken, causing the tendrils to curve and branch as they reach away from the
-    center'
+  shaderDescription: 'Fragment
+
+    Each pixel computes its position in polar coordinates,
+    which naturally orients the effect radially outward. A domain warping technique
+    is then applied: the angular coordinate is offset by layered noise before a final
+    noise sample is taken, causing the tendrils to curve and branch as they reach
+    away from the center'
   shaderObject: {fileID: 0}

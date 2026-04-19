@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 647c2e5fc4f87234799a0bf20de75295, type: 3}
   m_Name: 4_ItemShaderData
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableObjects.ShaderData
-  shaderName: 04
+  shaderName: 04 - Fire Corruption
   shaderId: 3
-  shaderDescription: 
+  shaderDescription: 'Item
+
+    Sections the model with a mask, then applies a simple
+    fire shader to the relevant zones in the mask, Emission, Smoothness and Metallic
+    are calculated only for the masked zones. '
   shaderObject: {fileID: 0}
