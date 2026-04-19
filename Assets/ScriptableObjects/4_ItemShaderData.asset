@@ -17,6 +17,6 @@ MonoBehaviour:
   shaderDescription: 'Item
 
     Sections the model with a mask, then applies a simple
-    fire shader to the relevant zones in the mask, Emission, Smoothness and Metallic
+    fire effect to the relevant zones in the mask, Emission, Smoothness and Metallic
     are calculated only for the masked zones. '
   shaderObject: {fileID: 0}

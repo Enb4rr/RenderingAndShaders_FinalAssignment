@@ -16,8 +16,9 @@ MonoBehaviour:
   shaderId: 4
   shaderDescription: 'Environment
 
-    Simple Flake Mask + Emission and Base Color
-    combined with a VFX graph to create an Ash/Ember rain
+    Features a VFX volume that displays an Ash
+    Rain. Each particle in the sistem consist on a Quad with a simple Flake Mask
+    + Emission and Base Color.
 
 '
   shaderObject: {fileID: 0}

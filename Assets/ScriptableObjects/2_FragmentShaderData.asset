@@ -16,9 +16,8 @@ MonoBehaviour:
   shaderId: 1
   shaderDescription: 'Fragment
 
-    Each pixel computes its position in polar coordinates,
-    which naturally orients the effect radially outward. A domain warping technique
-    is then applied: the angular coordinate is offset by layered noise before a final
-    noise sample is taken, causing the tendrils to curve and branch as they reach
-    away from the center'
+    The shader figures out each pixel''s distance
+    and angle from the center of the sphere, then uses layered math noise to grow
+    branching tendrils that radiate outward from the core. It also features a soft
+    glow surrounding each tendril, a bright center and rim lights.'
   shaderObject: {fileID: 0}
